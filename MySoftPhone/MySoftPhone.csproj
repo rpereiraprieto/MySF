@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4F1EBB4D-7392-420A-A7B4-2E25BFEB7B62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySoftPhone</RootNamespace>
+    <AssemblyName>MySoftPhone</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.GData.Client, Version=2.2.0.0, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Google\Google Data API SDK\Redist\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Contacts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=7e065189dd4b982f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Google\Google Data API SDK\Redist\Google.GData.Contacts.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Google\Google Data API SDK\Redist\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.7\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="pjsipDll">
+      <HintPath>..\..\..\blue\SoftPhone\Lib\pjsipDll.dll</HintPath>
+    </Reference>
+    <Reference Include="SipekSdk">
+      <HintPath>..\..\..\blue\SoftPhone\Lib\SipekSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WaveLibMixer">
+      <HintPath>..\WaveLibMixer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\AccesoDatos.cs" />
+    <Compile Include="Datos\Cifrar.cs" />
+    <Compile Include="Datos\Config.cs" />
+    <Compile Include="Datos\Dynamic.cs" />
+    <Compile Include="Datos\Entidades\Empresa.cs" />
+    <Compile Include="Datos\EntidadGenerica.cs" />
+    <Compile Include="Datos\Entidades\Extension.cs" />
+    <Compile Include="Datos\Globals.cs" />
+    <Compile Include="Datos\Entidades\Contacto.cs" />
+    <Compile Include="Datos\Entidades\Tipo.cs" />
+    <Compile Include="Datos\Entidades\Telefono.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracion.Designer.cs">
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Datos\Entidades\Grupo.cs" />
+    <Compile Include="PhoneConfig.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracion.resx">
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Imagenes\Dial.png" />
+    <Content Include="Imagenes\DialOV.png" />
+    <Content Include="Imagenes\DialPad0.png" />
+    <Content Include="Imagenes\DialPad0OV.png" />
+    <Content Include="Imagenes\DialPad1.png" />
+    <Content Include="Imagenes\DialPad1OV.png" />
+    <Content Include="Imagenes\DialPad2.png" />
+    <Content Include="Imagenes\DialPad2OV.png" />
+    <Content Include="Imagenes\DialPad3.png" />
+    <Content Include="Imagenes\DialPad3OV.png" />
+    <Content Include="Imagenes\DialPad4.png" />
+    <Content Include="Imagenes\DialPad4OV.png" />
+    <Content Include="Imagenes\DialPad5.png" />
+    <Content Include="Imagenes\DialPad5OV.png" />
+    <Content Include="Imagenes\DialPad6.png" />
+    <Content Include="Imagenes\DialPad6OV.png" />
+    <Content Include="Imagenes\DialPad7.png" />
+    <Content Include="Imagenes\DialPad7OV.png" />
+    <Content Include="Imagenes\DialPad8.png" />
+    <Content Include="Imagenes\DialPad8OV.png" />
+    <Content Include="Imagenes\DialPad9.png" />
+    <Content Include="Imagenes\DialPad9OV.png" />
+    <Content Include="Imagenes\DialPadHash.png" />
+    <Content Include="Imagenes\DialPadHashOV.png" />
+    <Content Include="Imagenes\DialPadStar.png" />
+    <Content Include="Imagenes\DialPadStarOV.png" />
+    <Content Include="Imagenes\Hangup.png" />
+    <Content Include="Imagenes\HangupOV.png" />
+    <None Include="Resources\microphone2.png" />
+    <None Include="Resources\microphone1.png" />
+    <None Include="Resources\loudspeaker_delete.png" />
+    <None Include="Resources\loudspeaker.png" />
+    <None Include="Resources\phone_redirect.png" />
+    <None Include="Resources\phone_pick_up.png" />
+    <None Include="Resources\phone_hold.png" />
+    <None Include="Resources\phone_hang_up.png" />
+    <None Include="Resources\Hangup.png" />
+    <None Include="Resources\DialPadStar.png" />
+    <None Include="Resources\DialPadHash.png" />
+    <None Include="Resources\DialPad9.png" />
+    <None Include="Resources\DialPad8.png" />
+    <None Include="Resources\DialPad71.png" />
+    <None Include="Resources\DialPad6.png" />
+    <None Include="Resources\DialPad5.png" />
+    <None Include="Resources\DialPad4.png" />
+    <None Include="Resources\DialPad3.png" />
+    <None Include="Resources\DialPad2.png" />
+    <None Include="Resources\DialPad1.png" />
+    <None Include="Resources\DialPad0.png" />
+    <None Include="Resources\Dial.png" />
+    <None Include="Resources\DialPad7.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

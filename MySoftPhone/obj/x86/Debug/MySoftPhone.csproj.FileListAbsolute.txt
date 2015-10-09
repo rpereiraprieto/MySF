@@ -1,0 +1,41 @@
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.pdb
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\bin\Debug\pjsipDll.dll
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\bin\Debug\SipekSdk.dll
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.Properties.Resources.resources
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.exe
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.pdb
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.Form1.resources
+C:\Users\ramon\Desktop\Proyectosoftphone\misoftphone\MySoftPhone\MySoftPhone\bin\Debug\WaveLibMixer.dll
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.exe
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.pdb
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.pdb
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\WaveLibMixer.dll
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.csprojResolveAssemblyReference.cache
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.Form1.resources
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.Properties.Resources.resources
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.csproj.GenerateResource.Cache
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.exe
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.pdb
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.pdb
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\WaveLibMixer.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.Properties.Resources.resources
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.csproj.GenerateResource.Cache
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.FrmConfiguracion.resources
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe.config
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySql.Data.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\Google.GData.Client.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\Google.GData.Contacts.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\Google.GData.Extensions.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\Newtonsoft.Json.dll
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.FrmMain.resources
+F:\Compilad\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.csprojResolveAssemblyReference.cache
+Z:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe.config
+Y:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\bin\Debug\MySoftPhone.exe.config
+Y:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.exe
+Y:\ProyectosV10\Proyectos varios\softPhone\Telefono\MySoftPhone\MySoftPhone\obj\x86\Debug\MySoftPhone.pdb
